@@ -18,15 +18,21 @@
         box-shadow: 0 0px;
     }
 /*Fonts*/
-  .PT{
+  .PT {
     font-family: 'PT Serif', serif;
     margin-bottom: 30px; 
   }
-  .PTi{
+  .PTi {
     font-family: 'PT Serif', serif;
     font-style: italic;
   }
 /*All*/
+  .up {
+  cursor: pointer;
+  position: fixed;
+  right: 3px;
+  bottom: 30px;
+  }
   #borderGallery{
     border: solid 2px;
   }
@@ -78,9 +84,10 @@
     .parallax-container .section {
       width: 100%;
     }
+
   @media only screen and (min-width : 992px){
     .containerWidth {
-      width: 100% !important;
+      width: 100%;
     }
   }
 
