@@ -10,13 +10,13 @@
  }*/
  
  /*Form input active black */
-  .input-field .prefix.active{
-    color: black;
-  }
-   input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-      border-bottom: 1px solid black;
-      box-shadow: 0 0px;
-  }
+    .input-field .prefix.active{
+      color: black;
+    }
+     input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+        border-bottom: 1px solid black;
+        box-shadow: 0 0px;
+    }
 /*Fonts*/
   .PT{
     font-family: 'PT Serif', serif;
@@ -78,6 +78,11 @@
     .parallax-container .section {
       width: 100%;
     }
+  @media only screen and (min-width : 992px){
+    .containerWidth {
+      width: 100% !important;
+    }
+  }
 
   @media only screen and (max-width : 992px) {
     .parallax-container .section {
@@ -104,4 +109,4 @@
 
   footer.page-footer {
     margin: 0;
-  }
+  
