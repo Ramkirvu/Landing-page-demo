@@ -8,89 +8,100 @@
  /*.header.col.s12.bold{
     font-family: 'PT Serif', serif;
  }*/
-.PT{
-  font-family: 'PT Serif', serif;
-  margin-bottom: 30px; 
-}
-.PTi{
-  font-family: 'PT Serif', serif;
-  font-style: italic;
-}
-#borderGallery{
-  border: solid 2px;
-}
-.martop{
-  margin-top: 90px !important;
-  margin-bottom: 90px !important;
-}
-#background{
-  margin: 0px;
-}
-#circle{
-  border-radius: 50%; 
-}
-#formInput{
-  width: 360px;
-  height: 300px;
-  border-radius: 10px;
-  border: 1px;
-  box-shadow: 0 0 25px rgba(0,0,0,0.7);
-  margin-top: 25px;
-}
-#fontSize{
-  font-size: 40px !important;
-}
-#footermargin{
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: black;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
+ 
+ /*Form input active black */
+  .input-field .prefix.active{
+    color: black;
+  }
+   input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+      border-bottom: 1px solid black;
+      box-shadow: 0 0px;
+  }
+/*Fonts*/
+  .PT{
+    font-family: 'PT Serif', serif;
+    margin-bottom: 30px; 
+  }
+  .PTi{
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+  }
+/*All*/
+  #borderGallery{
+    border: solid 2px;
+  }
+  .martop{
+    margin-top: 90px !important;
+    margin-bottom: 90px !important;
+  }
+  #background{
+    margin: 0px;
+  }
+  #circle{
+    border-radius: 50%; 
+  }
+  #formInput{
+    width: 360px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    margin-top: 25px;
+  }
+  #fontSize{
+    font-size: 40px !important;
+  }
+  #footermargin{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+/*Other*/
+  nav ul a,
+  nav .brand-logo {
+    color: #444;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
+  p {
+    line-height: 2rem;
   }
-  #index-banner .section {
-    top: 10%;
+
+  .button-collapse {
+    color: black;
   }
-}
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
+  .parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
   }
-}
+    .parallax-container .section {
+      width: 100%;
+    }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
+  @media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: absolute;
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+  }
 
-footer.page-footer {
-  margin: 0;
-}
+  @media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+  }
+
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  footer.page-footer {
+    margin: 0;
+  }
