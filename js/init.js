@@ -4,7 +4,7 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
-  }); // end of document ready
+  });
   $('a[href^="#"]').bind('click.smoothscroll',function (e) {
 		 e.preventDefault();
 		 
@@ -17,4 +17,4 @@
 		 window.location.hash = target;
 	 });
  });
-})(jQuery); // end of jQuery name space
+})(jQuery);
